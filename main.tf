@@ -22,7 +22,7 @@ resource "aws_instance" "sliver-c2" {
  
   # Provisioning the sliver bootstrap file.
   provisioner "file" {
-    source      = "/home/par/sliver-terraform/sliverc2-bootstrap.sh"
+    source      = "[...]/sliver-terraform/sliverc2-bootstrap.sh"
     destination = "/tmp/sliverc2-bootstrap.sh"
   }
   # Executing the sliver bootstrap file.

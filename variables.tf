@@ -19,12 +19,12 @@ variable "ssh-keyPath" {
 }
 
 variable "route53-zoneid" {
-  default = "Z07279702YENGIAXI05F1"
+  default = "Z0727[....]]XI05F1"
 }
 
 
 variable "route53-subdomain" {
-  default = "sliverc2.port9.org"
+  default = "sliverc2-2873.port9.org"
 }
 
 data "http" "my_source_ip" {
